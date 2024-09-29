@@ -37,20 +37,20 @@ The system then generates a fraud probability score and displays a risk level to
 ## 📖 Installation
 
 1. **Clone the repository:**
-```333bash
+```bash
 git clone https://github.com/yourusername/trustcheck.git
 cd trustcheck
-```333
+```
 
 2. **Install dependencies:**
-```333bash
+```bash
 npm install
-```333
+```
 
 3. **Start the development server:**
-```333bash
+```bash
 npm run dev
-```333
+```
 
 4. **Access the application:**
    Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
