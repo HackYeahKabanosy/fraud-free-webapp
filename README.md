@@ -1,4 +1,4 @@
-# 🛡️ TrustCheck - E-commerce Security & Fraud Detection
+# 🛡️ FraudFree - E-commerce Security & Fraud Detection
 
 [**🖥️ Test Online: Fraud-Free App**](https://fraud-free.vercel.app/)
 
