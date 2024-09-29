@@ -47,7 +47,7 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-1 justify-center px-2 lg:ml-6 lg:justify-end">
+              <div className="hidden md:flex flex-1 justify-center px-2 lg:ml-6 lg:justify-end">
                 <SearchBar />
               </div>
               <div className="flex lg:hidden">
