@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <main>
       <div className="w-full dark:transparent flex flex-col items-center justify-center overflow-hidden rounded-md">
-        <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20 mb-3">
+        <h1 className="text-7xl lg:text-9xl font-bold text-center text-white relative z-20 mb-3">
           <TypewriterEffect words={[{ text: "Fraud"}, { text: "Free" }]} className='font-mono'  cursorClassName="hidden" />
         </h1>
         <SearchBar />
