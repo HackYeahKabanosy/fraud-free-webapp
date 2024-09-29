@@ -74,7 +74,7 @@ export default function Example() {
               </p>
 
               <p className="mt-6">
-                Explore <strong>FraudFree</strong> on GitHub: <a href="https://github.com/your-repo/FraudFree" className="text-blue-500 hover:text-blue-600">FraudFree Repository</a> or see it in action here: <a href="https://fraudfree.vercel.app/" className="text-blue-500 hover:text-blue-600">Live Demo</a>.
+                Explore <strong>FraudFree</strong> on GitHub: <a href="https://github.com/HackYeahKabanosy/fraudfree" className="text-blue-500 hover:text-blue-600">FraudFree Repository</a>.
               </p>
 
               <p className="mt-6">
