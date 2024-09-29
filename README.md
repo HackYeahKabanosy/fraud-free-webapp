@@ -60,6 +60,7 @@ npm run dev
 - **Next.js** - A powerful React framework for building dynamic web applications.
 - **TailwindCSS** - A utility-first CSS framework for fast UI development.
 - **Framer Motion** - For smooth animations.
+- **NestJS** - Powerfull API, check the [api on github](https://github.com/HackYeahKabanosy/fraudfree).
 - **MongoDB** - A NoSQL database for storing website information.
 
 ## 📚 License
