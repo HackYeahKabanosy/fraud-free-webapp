@@ -71,11 +71,11 @@ export default function WebsiteDetail({ data }: { data: any }) {
         Analysis: {url || 'Not available'}
       </h1>
 
-      <div className="overflow-hidden bg-white dark:bg-gray-800 shadow sm:rounded-lg p-3 mb-9">
+      <div className="overflow-hiddenmb-9">
         {/* Create two separate blocks for Risk and Scam Probability */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 px-4 py-6 sm:px-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-9">
           {/* Risk Block */}
-          <div className="p-4 bg-gray-50 dark:bg-gray-900 rounded-lg shadow-md">
+          <div className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-200 mb-2">Risk</h3>
             <p className="text-gray-500 dark:text-gray-300 flex items-center">
               {getRiskIcon(status)} <span className="ml-2">{status || 'Not available'}</span>
@@ -83,7 +83,7 @@ export default function WebsiteDetail({ data }: { data: any }) {
           </div>
 
           {/* Scam Probability Block */}
-          <div className="p-4 bg-gray-50 dark:bg-gray-900 rounded-lg shadow-md">
+          <div className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-200 mb-2 flex items-center">
               <AdjustmentsVerticalIcon className="h-6 w-6 text-gray-900 dark:text-gray-200 mr-2" />
               Scam Probability
@@ -110,16 +110,18 @@ export default function WebsiteDetail({ data }: { data: any }) {
         </div>
 
         {/* Use the AlertSection for the conclusion */}
-        <div className="mt-6">
+        
+      </div>
+
+      <div>
           <AlertSection
             status={getAlertStatus(status)} // Pass the risk status
             title="Conclusion"
             description={conclusion || 'Not available'} // Pass the conclusion from the data
           />
         </div>
-      </div>
 
-      <div className="overflow-hidden bg-white dark:bg-gray-800 shadow sm:rounded-lg p-3 mb-9">
+      <div className="overflow-hidden bg-white dark:bg-gray-800 shadow sm:rounded-lg  p-3 my-9">
         <div>
           <div className="px-4 py-6 sm:px-6">
             <h1 className="text-3xl font-semibold leading-7 text-gray-900 dark:text-gray-300 mb-6">
