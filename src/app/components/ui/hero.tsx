@@ -3,7 +3,8 @@
 import { useEffect, useState } from 'react';
 import { SparklesCore } from "./sparkles";
 import { TypewriterEffect } from "./typewriter-effect";
-import SearchBar from './search-bar';
+import SearchBarButton from './search-bar-button';
+
 
 export default function Hero() {
   const isDarkTheme = useThemeDetector();
@@ -14,7 +15,7 @@ export default function Hero() {
         <h1 className="text-7xl lg:text-9xl font-bold text-center text-white relative z-20 mb-3">
           <TypewriterEffect words={[{ text: "Fraud"}, { text: "Free" }]} className='font-mono'  cursorClassName="hidden" />
         </h1>
-        <SearchBar />
+        <SearchBarButton />
         <div className="w-[40rem] h-40 relative">
           <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm"></div>
           <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4"></div>
