@@ -61,6 +61,7 @@ npm run dev
 - **TailwindCSS** - A utility-first CSS framework for fast UI development.
 - **Framer Motion** - For smooth animations.
 - **NestJS** - Powerfull API, check the [api on github](https://github.com/HackYeahKabanosy/fraudfree).
+- **Vanilla JS** - The tasty way to create our plugin for chrome and firefox, [check on github](https://github.com/HackYeahKabanosy/fraudfree/tree/main/browser_plugin/mozilla).
 - **MongoDB** - A NoSQL database for storing website information.
 
 ## 📚 License
