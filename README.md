@@ -38,8 +38,8 @@ The system then generates a fraud probability score and displays a risk level to
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/trustcheck.git
-cd trustcheck
+git clone https://github.com/yourusername/fraud-free-webapp.git
+cd fraud-free-webapp
 ```
 
 2. **Install dependencies:**
